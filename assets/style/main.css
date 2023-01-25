@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Cairo-Bold";
+  src: local("Cairo"), url(../fonts/Cairo-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cairo-Regular";
+  src: local("Cairo"), url(../fonts/Cairo-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "semi";
+  src: local("Cairo"), url(../fonts/Cairo-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: local("Cairo"), url(../fonts/Cairo-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cairo";
+  src: local("Cairo"), url(../fonts/Cairo-Black.ttf) format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cairo;
+}
+
+h2 {
+  color: var(--main_theme_clr);
+  font-family: Cairo-Bold;
+  padding: 30px 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+.subSection_footer p {
+  color: var(--p_color) !important;
+  text-align: justify;
+  font-family: Medium;
+  padding: 20px 0;
+}
+
+.footer_icon {
+  display: flex;
+  gap: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main_theme_clr);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main_theme_clr);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+
+.adress {
+    overflow: hidden;
+  }
+  .test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media (max-width:480px) {
+      &{
+       justify-content: center;
+  
+      }
+      .coll{
+        width: 100%;
+      }
+      
+    }
+  }
+  
+  .todos {
+    /* max-width: 400px; */
+    /* margin: 20px auto; */
+    position: relative;
+    margin: 100px 0;
+  }
+  
+  // button {
+  //   border: none;
+  //   color: white;
+  //   background-color: var(--main_theme_clr);
+  //   width: 200px;
+  //   padding: 15px 10px;
+  //   border-radius: 15px;
+  //   margin: 20px 0;
+  //   transition: all 0.5s linear;
+  //   &:hover{
+  //     background-color: transparent;
+  //   color: var(--main_theme_clr);
+  //   border: 1px solid var(--main_theme_clr);
+  
+  //   }
+  // }
+  

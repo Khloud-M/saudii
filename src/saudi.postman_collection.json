@@ -1,0 +1,3424 @@
+{
+  "info": {
+    "_postman_id": "cd967e3b-2c98-4008-b095-b2a07138286b",
+    "name": "saudi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "1097398"
+  },
+  "item": [
+    {
+      "name": "client",
+      "item": [
+        {
+          "name": "general",
+          "item": [
+            {
+              "name": "countries",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "https://khlod.aait-d.com/saudi_marsheeh/public/api/countries",
+                  "protocol": "https",
+                  "host": ["khlod", "aait-d", "com"],
+                  "path": ["saudi_marsheeh", "public", "api", "countries"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "cities/{country_id}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}cities/1",
+                  "host": ["{{server}}cities"],
+                  "path": ["1"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "cities",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}cities",
+                  "host": ["{{server}}cities"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "shipping types",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}cities",
+                  "host": ["{{server}}cities"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "common-questions",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}common-questions",
+                  "host": ["{{server}}common-questions"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "about",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}about",
+                  "host": ["{{server}}about"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "policy",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}policy",
+                  "host": ["{{server}}policy"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "terms",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}terms",
+                  "host": ["{{server}}terms"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "contact",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}contact",
+                  "host": ["{{server}}contact"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "contact",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "contact ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "content",
+                      "value": "test contact us",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}contact",
+                  "host": ["{{server}}contact"]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Auth",
+          "item": [
+            {
+              "name": "register",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "user_name",
+                      "value": "khlood provider2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "khloodprovider2@gmail.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "051020414435",
+                      "type": "text"
+                    },
+                    {
+                      "key": "image",
+                      "type": "file",
+                      "src": "/C:/Users/Elsay/Desktop/Solid_green.svg.png"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_confirmation",
+                      "value": "123123123",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}client-register",
+                  "host": ["{{server}}client-register"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "verify code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051020414235",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    },
+                    {
+                      "key": "device_token",
+                      "value": "123456789",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "android",
+                      "description": "ios,android,huawei",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}verify",
+                  "host": ["{{server}}verify"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "resend code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234567",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}resend_code",
+                  "host": ["{{server}}resend_code"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "login",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "966510204142",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "device_token",
+                      "value": "token",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "ios",
+                      "description": "ios,android,huawei",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}login",
+                  "host": ["{{server}}login"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "change password",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "old_password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123456789",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}edit_password",
+                  "host": ["{{server}}edit_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "profile",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}client/profile",
+                  "host": ["{{server}}client"],
+                  "path": ["profile"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "update profile",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "user_name",
+                      "value": "second client update",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "fullname",
+                      "value": "khlood",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "email",
+                      "value": "clientAfterEdit@gmail.com",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "image",
+                      "description": "null",
+                      "type": "file",
+                      "src": "/C:/Users/khloo/Desktop/download.jpg"
+                    },
+                    {
+                      "key": "country_id",
+                      "value": "ios",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "city_id",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "location_description",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "phone",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}client/profile",
+                  "host": ["{{server}}client"],
+                  "path": ["profile"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "forget password",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "0510204143",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "https://khlod.aait-d.com/saudi_marsheeh/public/api/forgot_password",
+                  "protocol": "https",
+                  "host": ["khlod", "aait-d", "com"],
+                  "path": ["saudi_marsheeh", "public", "api", "forgot_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "reset password",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123125",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}reset_password",
+                  "host": ["{{server}}reset_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "logout",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "device_token",
+                      "value": "token",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "type",
+                      "value": "ios",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}logout",
+                  "host": ["{{server}}logout"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "check_code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "96651234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}check_code",
+                  "host": ["{{server}}check_code"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "edit-phone",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234567",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}edit_phone",
+                  "host": ["{{server}}edit_phone"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "check-code-for-phone",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "96651234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}check_code_for_phone",
+                  "host": ["{{server}}check_code_for_phone"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "update_user_lang",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "lang",
+                      "value": "ar",
+                      "description": "ar ,en",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}update_user_lang",
+                  "host": ["{{server}}update_user_lang"]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "withAuth",
+          "item": [
+            {
+              "name": "addreses",
+              "item": [
+                {
+                  "name": "add",
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "name",
+                          "value": "work",
+                          "type": "text"
+                        },
+                        {
+                          "key": "lat",
+                          "value": "35.3545616",
+                          "type": "text"
+                        },
+                        {
+                          "key": "lng",
+                          "value": "34.3545616",
+                          "type": "text"
+                        },
+                        {
+                          "key": "address",
+                          "value": "مجمع المحاكم",
+                          "type": "text"
+                        },
+                        {
+                          "key": "is_default",
+                          "value": "0",
+                          "description": "0,1",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/address",
+                      "host": ["{{server}}client"],
+                      "path": ["address"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "edit",
+                  "request": {
+                    "method": "PUT",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "urlencoded",
+                      "urlencoded": [
+                        {
+                          "key": "name",
+                          "value": "work after update",
+                          "type": "text"
+                        },
+                        {
+                          "key": "lat",
+                          "value": "35.3545616",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "lng",
+                          "value": "34.3545616",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "address",
+                          "value": "شارع عبد المنعم رياض",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "is_default",
+                          "value": "1",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/address/2",
+                      "host": ["{{server}}client"],
+                      "path": ["address", "2"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "is_default",
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "urlencoded",
+                      "urlencoded": [
+                        {
+                          "key": "is_default",
+                          "value": "1",
+                          "description": "0,1",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/address/is_default/1",
+                      "host": ["{{server}}client"],
+                      "path": ["address", "is_default", "1"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "address",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/address",
+                      "host": ["{{server}}client"],
+                      "path": ["address"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "show/{address_id}",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/address/1",
+                      "host": ["{{server}}client"],
+                      "path": ["address", "1"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "delete",
+                  "request": {
+                    "method": "DELETE",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": ""
+                    },
+                    "url": {
+                      "raw": "{{server}}client/address/1",
+                      "host": ["{{server}}client"],
+                      "path": ["address", "1"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Home",
+              "item": [
+                {
+                  "name": "home",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/home",
+                      "host": ["{{server}}client"],
+                      "path": ["home"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "general",
+              "item": [
+                {
+                  "name": "categories/{main_catgory_id}",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}categories/1?sub_category_id=all",
+                      "host": ["{{server}}categories"],
+                      "path": ["1"],
+                      "query": [
+                        {
+                          "key": "sub_category_id",
+                          "value": "all"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "get_all_my_favorite",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/favorite_products",
+                      "host": ["{{server}}client"],
+                      "path": ["favorite_products"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "add_or_remove_favorite",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "product_id",
+                          "value": "2",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/favorite_products",
+                      "host": ["{{server}}client"],
+                      "path": ["favorite_products"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "filter products depend on category",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}filter?classification=recently_added&category_id=2&price_from=100&price_to=500&color_id=1&rating_value=3",
+                      "host": ["{{server}}filter"],
+                      "query": [
+                        {
+                          "key": "classification",
+                          "value": "recently_added",
+                          "description": "best_seller - recently_added"
+                        },
+                        {
+                          "key": "category_id",
+                          "value": "2"
+                        },
+                        {
+                          "key": "price_from",
+                          "value": "100"
+                        },
+                        {
+                          "key": "price_to",
+                          "value": "500"
+                        },
+                        {
+                          "key": "color_id",
+                          "value": "1"
+                        },
+                        {
+                          "key": "rating_value",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "get all shipping type",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}shipping_type",
+                      "host": ["{{server}}shipping_type"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "seller details",
+                  "request": {
+                    "method": "GET",
+                    "header": []
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "ratings",
+              "item": [
+                {
+                  "name": "client/rating",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "product_id",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "rating_value",
+                          "value": "5",
+                          "type": "text"
+                        },
+                        {
+                          "key": "comment",
+                          "value": "",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/rating",
+                      "host": ["{{server}}client"],
+                      "path": ["rating"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "products",
+              "item": [
+                {
+                  "name": "show_product",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/show_product/2",
+                      "host": ["{{server}}client"],
+                      "path": ["show_product", "2"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "offers",
+              "item": [
+                {
+                  "name": "get_offers",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/offers",
+                      "host": ["{{server}}client"],
+                      "path": ["offers"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "cart",
+              "item": [
+                {
+                  "name": "add_item",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "provider_id",
+                          "value": "29",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_id",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "quantity",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "color_id",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "size_id",
+                          "value": "1",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/add_item",
+                      "host": ["{{server}}client"],
+                      "path": ["add_item"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "delete_item",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/delete_item/2",
+                      "host": ["{{server}}client"],
+                      "path": ["delete_item", "2"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "get_cart",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/get_cart",
+                      "host": ["{{server}}client"],
+                      "path": ["get_cart"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "update_item_quantity",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "quantity",
+                          "value": "1",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}client/update_item_quantity/4",
+                      "host": ["{{server}}client"],
+                      "path": ["update_item_quantity", "4"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "apply_coupon",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDcwNDM5LCJleHAiOjE2ODQwMDY0MzksIm5iZiI6MTY1MjQ3MDQzOSwianRpIjoiaWhUeXkzZHN5b2FvYUx6eSIsInN1YiI6IjI3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.vi7YRNR18x-o77FFuyXhfJjSkF3cHThsHdalq1WT4h0",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}client/apply_coupon/saudi_marsheeh_202",
+                      "host": ["{{server}}client"],
+                      "path": ["apply_coupon", "saudi_marsheeh_202"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "order",
+              "item": [
+                {
+                  "name": "create order",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wva2hsb2QuYWFpdC1kLmNvbVwvc2F1ZGlfbWFyc2hlZWhcL3B1YmxpY1wvYXBpXC9sb2dpbiIsImlhdCI6MTY1Mjk0NjI0MywiZXhwIjoxNjg0NDgyMjQzLCJuYmYiOjE2NTI5NDYyNDMsImp0aSI6ImZiOXVnS3Y0bHdQV2lTbUYiLCJzdWIiOjMwLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.JmEt4NrvNgAak4JA3C-dH9dvl7ybFzEScnkdflpa6to",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "client_name",
+                          "value": "test",
+                          "type": "text"
+                        },
+                        {
+                          "key": "phone",
+                          "value": "05123456",
+                          "type": "text"
+                        },
+                        {
+                          "key": "pay_type",
+                          "value": "cash",
+                          "description": "cash,credit,wallet",
+                          "type": "text"
+                        },
+                        {
+                          "key": "transaction_id",
+                          "value": "",
+                          "description": "required if pay_type = credit",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "shipping_type_id",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "address_id",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "city_id",
+                          "value": "",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "lat",
+                          "value": "",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "lng",
+                          "value": "",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "address",
+                          "value": "",
+                          "type": "text",
+                          "disabled": true
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "https://khlod.aait-d.com/saudi_marsheeh/public/api/client/client_order",
+                      "protocol": "https",
+                      "host": ["khlod", "aait-d", "com"],
+                      "path": [
+                        "saudi_marsheeh",
+                        "public",
+                        "api",
+                        "client",
+                        "client_order"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "my orders",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wva2hsb2QuYWFpdC1kLmNvbVwvc2F1ZGlfbWFyc2hlZWhcL3B1YmxpY1wvYXBpXC9sb2dpbiIsImlhdCI6MTY1Mjk0NjI0MywiZXhwIjoxNjg0NDgyMjQzLCJuYmYiOjE2NTI5NDYyNDMsImp0aSI6ImZiOXVnS3Y0bHdQV2lTbUYiLCJzdWIiOjMwLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.JmEt4NrvNgAak4JA3C-dH9dvl7ybFzEScnkdflpa6to",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "https://khlod.aait-d.com/saudi_marsheeh/public/api/client/client_order",
+                      "protocol": "https",
+                      "host": ["khlod", "aait-d", "com"],
+                      "path": [
+                        "saudi_marsheeh",
+                        "public",
+                        "api",
+                        "client",
+                        "client_order"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "show order",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wva2hsb2QuYWFpdC1kLmNvbVwvc2F1ZGlfbWFyc2hlZWhcL3B1YmxpY1wvYXBpXC9sb2dpbiIsImlhdCI6MTY1Mjk0NjI0MywiZXhwIjoxNjg0NDgyMjQzLCJuYmYiOjE2NTI5NDYyNDMsImp0aSI6ImZiOXVnS3Y0bHdQV2lTbUYiLCJzdWIiOjMwLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.JmEt4NrvNgAak4JA3C-dH9dvl7ybFzEScnkdflpa6to",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "https://khlod.aait-d.com/saudi_marsheeh/public/api/client/client_order/5",
+                      "protocol": "https",
+                      "host": ["khlod", "aait-d", "com"],
+                      "path": [
+                        "saudi_marsheeh",
+                        "public",
+                        "api",
+                        "client",
+                        "client_order",
+                        "5"
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Provider",
+      "item": [
+        {
+          "name": "general",
+          "item": [
+            {
+              "name": "countries",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}countries",
+                  "host": ["{{server}}countries"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "cities/{country_id}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}cities/1",
+                  "host": ["{{server}}cities"],
+                  "path": ["1"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "cities",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}cities",
+                  "host": ["{{server}}cities"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "contact",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{local}}contact",
+                  "host": ["{{local}}contact"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "terms",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{local}}terms",
+                  "host": ["{{local}}terms"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "contact",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "title",
+                      "value": "contact ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "content",
+                      "value": "test contact us",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{local}}contact",
+                  "host": ["{{local}}contact"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "policy",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{local}}policy",
+                  "host": ["{{local}}policy"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "about",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{local}}about",
+                  "host": ["{{local}}about"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "common-questions",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{local}}common-questions",
+                  "host": ["{{local}}common-questions"]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Auth",
+          "item": [
+            {
+              "name": "register",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "user_name",
+                      "value": "khloodProvider1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "khloodProvider1@gmail.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "0512366666",
+                      "type": "text"
+                    },
+                    {
+                      "key": "image",
+                      "type": "file",
+                      "src": "/C:/Users/Elsay/Desktop/Solid_green.svg.png"
+                    },
+                    {
+                      "key": "logo",
+                      "type": "file",
+                      "src": "/C:/Users/Elsay/Desktop/Solid_green.svg.png"
+                    },
+                    {
+                      "key": "commercial_register_image",
+                      "type": "file",
+                      "src": "/C:/Users/Elsay/Desktop/Solid_green.svg.png"
+                    },
+                    {
+                      "key": "country_id",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "city_id",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lat",
+                      "value": "31.251365",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lng",
+                      "value": "31.251365",
+                      "type": "text"
+                    },
+                    {
+                      "key": "location_description",
+                      "value": "شارع عبد المنعم رياض بجوار مضرب حال",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_confirmation",
+                      "value": "123123123",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}provider-register",
+                  "host": ["{{server}}provider-register"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "verify code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "0512366666",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    },
+                    {
+                      "key": "device_token",
+                      "value": "123456789",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "android",
+                      "description": "ios,android,huawei",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}verify",
+                  "host": ["{{server}}verify"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "resend code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234555",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}resend_code",
+                  "host": ["{{server}}resend_code"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "login",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "0512366666",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "device_token",
+                      "value": "token",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "ios",
+                      "description": "ios,android,huawei",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}login",
+                  "host": ["{{server}}login"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "change password",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "old_password",
+                      "value": "123123123",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123456789",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}edit_password",
+                  "host": ["{{server}}edit_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "profile",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{server}}provider/profile",
+                  "host": ["{{server}}provider"],
+                  "path": ["profile"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "update profile",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "user_name",
+                      "value": "khlood ",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "fullname",
+                      "value": "05974563215",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "email",
+                      "value": "2",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "image",
+                      "description": "null",
+                      "type": "file",
+                      "src": "/C:/Users/khloo/Desktop/download.jpg",
+                      "disabled": true
+                    },
+                    {
+                      "key": "country_id",
+                      "value": "ios",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "city_id",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "lat",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "lng",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "location_description",
+                      "value": "",
+                      "description": "null",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "phone",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "commercial_register_image",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "logo",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}provider/profile",
+                  "host": ["{{server}}provider"],
+                  "path": ["profile"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "forget password",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234555",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}forgot_password",
+                  "host": ["{{server}}forgot_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "reset password",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234555",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "123123125",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}reset_password",
+                  "host": ["{{server}}reset_password"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "logout",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "device_token",
+                      "value": "token",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "type",
+                      "value": "ios",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}logout",
+                  "host": ["{{server}}logout"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "check_code",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "96651234555",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}check_code",
+                  "host": ["{{server}}check_code"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "edit-phone",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "051234555",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}edit_phone",
+                  "host": ["{{server}}edit_phone"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "check-code-for-phone",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "phone",
+                      "value": "96651234566",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "1111",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{server}}check_code_for_phone",
+                  "host": ["{{server}}check_code_for_phone"]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "update_user_lang",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Accept-Language",
+                    "value": "ar",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "lang",
+                      "value": "",
+                      "description": "ar ,en",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{local}}update_user_lang",
+                  "host": ["{{local}}update_user_lang"]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "withAuth",
+          "item": [
+            {
+              "name": "general",
+              "item": [
+                {
+                  "name": "categories",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{local}}categories",
+                      "host": ["{{local}}categories"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "subCategories/{category_id}",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}subCategories/2",
+                      "host": ["{{server}}subCategories"],
+                      "path": ["2"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "colors",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}colors",
+                      "host": ["{{server}}colors"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "sizes",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "en",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}sizes",
+                      "host": ["{{server}}sizes"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "products",
+              "item": [
+                {
+                  "name": "index",
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}provider/products",
+                      "host": ["{{server}}provider"],
+                      "path": ["products"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "show/{product_id}",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNzg0MTYzLCJleHAiOjE2ODQzMjAxNjMsIm5iZiI6MTY1Mjc4NDE2MywianRpIjoicEk5YzlRYzF1cXdLdVNIUiIsInN1YiI6IjI5IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.uFytb425R6X8z5TWsS8NDBqIOh321Ec89_yKWEGSB1o",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{server}}provider/products/2",
+                      "host": ["{{server}}provider"],
+                      "path": ["products", "2"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "products/{product_id}",
+                  "request": {
+                    "method": "DELETE",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": ""
+                    },
+                    "url": {
+                      "raw": "{{server}}provider/products/1",
+                      "host": ["{{server}}provider"],
+                      "path": ["products", "1"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "add",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUyNDM0MDI5LCJleHAiOjE2ODM5NzAwMjksIm5iZiI6MTY1MjQzNDAyOSwianRpIjoiejZodlJTUnozS0xQc1llWiIsInN1YiI6IjI5IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.mYyjHepd3KKy2rPkHjokHm7LgK1Da2-KcncGhAL2acA",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "name",
+                          "value": "جاكيت اطفال",
+                          "type": "text"
+                        },
+                        {
+                          "key": "desc",
+                          "value": "",
+                          "description": "null",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "category_id",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "sub_category_id",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "weight",
+                          "value": "15",
+                          "type": "text"
+                        },
+                        {
+                          "key": "price_before_dicount",
+                          "value": "500",
+                          "type": "text"
+                        },
+                        {
+                          "key": "delivery_price",
+                          "value": "50",
+                          "type": "text"
+                        },
+                        {
+                          "key": "delivery_time",
+                          "value": "15",
+                          "type": "text"
+                        },
+                        {
+                          "key": "discount_percentage",
+                          "value": "5",
+                          "description": "null",
+                          "type": "text"
+                        },
+                        {
+                          "key": "quantity",
+                          "value": "20",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_details[0][color_id]",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_details[0][size_id]",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_image[]",
+                          "type": "file",
+                          "src": "/C:/Users/Elsay/Desktop/Solid_green.svg.png"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}provider/products",
+                      "host": ["{{server}}provider"],
+                      "path": ["products"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "edit",
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "name",
+                          "value": "جاكيت صيفي",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "desc",
+                          "value": "",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "category_id",
+                          "value": "2",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "sub_category_id",
+                          "value": "3",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "weight",
+                          "value": "15",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "price_before_dicount",
+                          "value": "600",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "delivery_price",
+                          "value": "50",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "delivery_time",
+                          "value": "15",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "discount_percentage",
+                          "value": "5",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "quantity",
+                          "value": "20",
+                          "type": "text",
+                          "disabled": true
+                        },
+                        {
+                          "key": "product_details[0][color_id]",
+                          "value": "1",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_details[0][size_id]",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_image[]",
+                          "type": "file",
+                          "src": [
+                            "/C:/Users/khloo/Desktop/320px-Flag_of_Saudi_Arabia.svg.png",
+                            "/C:/Users/khloo/Desktop/848933_0.jpg"
+                          ],
+                          "disabled": true
+                        },
+                        {
+                          "key": "product_details[0][id]",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_details[1][color_id]",
+                          "value": "2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "product_details[1][size_id]",
+                          "value": "2",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}provider/products/2",
+                      "host": ["{{server}}provider"],
+                      "path": ["products", "2"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "deleteImage",
+                  "request": {
+                    "method": "DELETE",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": ""
+                    },
+                    "url": {
+                      "raw": "{{server}}provider/products/deleteImage/20",
+                      "host": ["{{server}}provider"],
+                      "path": ["products", "deleteImage", "20"]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "delete_product_details",
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Accept-Language",
+                        "value": "ar",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "product_detail_id",
+                          "value": "3",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{server}}provider/products/delete_product_details",
+                      "host": ["{{server}}provider"],
+                      "path": ["products", "delete_product_details"]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

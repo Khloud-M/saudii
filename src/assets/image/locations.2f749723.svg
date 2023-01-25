@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="119" viewBox="0 0 167 119">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="basic_command_Background_Mask_" data-name="basic / command (Background/Mask)" width="117" height="117" transform="translate(0 -0.339)" fill="none" stroke="#43290a" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="locations" transform="translate(-35 -35)">
+    <path id="Background" d="M46,70a7,7,0,0,1,0-14H7A7,7,0,1,1,7,42H47a7,7,0,0,0,0-14H22a7,7,0,0,1,0-14H62A7,7,0,0,1,62,0h98a7,7,0,1,1,0,14H120a7,7,0,1,1,0,14h22a7,7,0,0,1,0,14H131.826C126.951,42,123,45.134,123,49s6,7,6,7a7,7,0,0,1,0,14ZM153,35a7,7,0,1,1,7,7A7,7,0,0,1,153,35Z" transform="translate(35 63)" fill="#d2c6b8"/>
+    <path id="line" d="M1,24.181Zm0-24Z" transform="translate(140 85)" fill="none" stroke="#84715b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="ground_line" d="M114.128.5ZM87,.5ZM13,.5ZM.128.5Z" transform="translate(67 135)" fill="none" stroke="#43290a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <g id="basic_location_outline" data-name="basic / location_outline" transform="translate(62 30)" style="isolation: isolate">
+      <g id="basic_location_outline-2" data-name="basic / location_outline">
+        <g id="basic_location_outline-3" data-name="basic / location_outline" transform="translate(6 7.339)" clip-path="url(#clip-path)">
+          <path id="basic_location_outline-4" data-name="basic / location_outline" d="M34.026,87.51h0A144.727,144.727,0,0,1,17.013,70.346C9.236,61.057,0,47.223,0,34.041a34.026,34.026,0,1,1,68.052,0c0,13.183-9.236,27.017-17.013,36.306A144.727,144.727,0,0,1,34.026,87.51Zm0-77.774a24.334,24.334,0,0,0-24.3,24.3c0,10.266,8.02,22.015,14.753,30.069a135.8,135.8,0,0,0,9.552,10.276,136.589,136.589,0,0,0,9.556-10.261C50.31,56.055,58.331,44.3,58.331,34.041a24.334,24.334,0,0,0-24.3-24.3Zm0,38.887A14.583,14.583,0,1,1,48.609,34.041,14.583,14.583,0,0,1,34.026,48.623Z" transform="translate(24.304 14.568)" fill="#fff" stroke="#43290a" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Call_Silent" data-name="Call Silent" transform="translate(112.5 3.478)">
+      <path id="Stroke_5" data-name="Stroke 5" d="M0,55.355,55.355,0" transform="translate(-12.855 56.285)" fill="#fff" stroke="#43290a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <circle id="Oval" cx="3" cy="3" r="3" transform="translate(155 36)" fill="none" stroke="#84715b" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Oval-2" data-name="Oval" cx="3" cy="3" r="3" transform="translate(186 52)" fill="#84715b"/>
+    <path id="Line_5" data-name="Line 5" d="M4.6,4.6.481,8.712,4.6,4.6.354.354,4.6,4.6,8.839.354,4.6,4.6,8.712,8.712Z" transform="translate(165.404 49.404)" fill="none" stroke="#84715b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Line_4" data-name="Line 4" d="M3,3,0,6,3,3,0,0,3,3,6,0,3,3,6,6Z" transform="translate(71.404 67.596)" fill="none" stroke="#84715b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <circle id="Oval-3" data-name="Oval" cx="3" cy="3" r="3" transform="translate(82 55)" fill="#84715b"/>
+  </g>
+</svg>

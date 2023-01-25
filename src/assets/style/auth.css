@@ -1,0 +1,268 @@
+p {
+  font-size: 20px;
+  font-weight: Medium;
+  color: var(--p_color);
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+.auth {
+  background-image: url("../image/auth.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+@media (max-width: 480px) {
+  .auth {
+    overflow: auto;
+  }
+}
+.auth::before {
+  content: "";
+  background-image: url("../image/auth2.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: -40%;
+  right: -78%;
+}
+@media (max-width: 480px) {
+  .auth::before {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .auth::before {
+    top: -40%;
+    right: -80%;
+  }
+}
+.auth::after {
+  content: "";
+  background-image: url("../image/auth3.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  bottom: -45%;
+  left: -15%;
+}
+@media (max-width: 480px) {
+  .auth::after {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .auth::after {
+    display: none;
+  }
+}
+
+.content_auth {
+  position: absolute;
+  z-index: 9999;
+  top: 10%;
+  left: 38%;
+  width: 35%;
+}
+@media (max-width: 480px) {
+  .content_auth {
+    width: 90%;
+    left: 5%;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .content_auth {
+    width: 70%;
+    left: 5%;
+  }
+}
+.content_auth .form_auth {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 15px;
+  color: var(--main_theme_clr);
+}
+.content_auth .form_auth h2 {
+  font-size: 28px;
+  font-weight: Cairo-Bold;
+}
+@media (max-width: 480px) {
+  .content_auth .form_auth h2 {
+    font-size: 20px;
+  }
+}
+
+.floating-label {
+  margin-bottom: 20px;
+  position: relative;
+  height: 45px;
+  border: 0.5px solid var(--border_clr);
+  border-radius: 5px;
+}
+.floating-label > label {
+  font-size: 16px;
+  color: var(--light_gray_clr);
+  font-weight: 300;
+  pointer-events: none;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  transition: 0.2s ease all;
+}
+.floating-label > input, .floating-label textarea {
+  width: 95%;
+  height: 90%;
+  margin: auto;
+  display: block;
+  outline: none;
+  border: none;
+}
+.floating-label .input-highlight {
+  width: 100%;
+  height: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  opacity: 0.5;
+}
+
+.text_area {
+  height: 250px;
+}
+.text_area textarea {
+  margin-top: 10px;
+}
+
+.floating-input:focus {
+  outline: none;
+}
+.floating-input:focus ~ label {
+  font-size: 14px;
+  color: var(--main_theme_clr);
+  padding: 0 4px;
+  background-color: white;
+  top: -10px;
+}
+
+form {
+  margin-top: 40px;
+}
+form .floating-label {
+  margin-bottom: 20px;
+  position: relative;
+  height: 60px;
+  border: 0.5px solid var(--border_clr);
+  border-radius: 5px;
+}
+form .floating-label > label {
+  font-size: 15px;
+  font-weight: Medium;
+  color: var(--main_theme_clr);
+  pointer-events: none;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  transition: 0.2s ease all;
+}
+@media (max-width: 1024px) {
+  form .floating-label > label {
+    font-size: 14px;
+  }
+}
+form .floating-label > input, form .floating-label textarea {
+  width: 95%;
+  height: 90%;
+  margin: auto;
+  display: block;
+  outline: none;
+  border: none;
+}
+form .floating-label .input-highlight {
+  width: 100%;
+  height: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  opacity: 0.5;
+}
+form .text_area {
+  height: 250px;
+}
+form .text_area textarea {
+  margin-top: 10px;
+}
+form .floating-input:focus {
+  outline: none;
+}
+form .floating-input:focus ~ label {
+  font-weight: Medium;
+  font-size: 16px;
+  color: var(--p_color);
+  padding: 0 4px;
+  background-color: white;
+  top: -15px;
+}
+@media (max-width: 1024px) {
+  form .floating-input:focus ~ label {
+    font-size: 13px;
+  }
+}
+
+.send {
+  background-color: var(--main_theme_clr);
+  color: white;
+  padding: 8px 25px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: semi;
+  border-radius: 12px;
+}
+@media (max-width: 480px) {
+  .send {
+    font-size: 16px;
+  }
+}
+.send a {
+  color: white;
+}
+
+.footer_auth {
+  justify-content: center;
+  font-size: 18px;
+  gap: 10px;
+}
+@media (max-width: 480px) {
+  .footer_auth {
+    font-size: 15px;
+  }
+}
+.footer_auth p {
+  font-size: 18px;
+}
+@media (max-width: 480px) {
+  .footer_auth p {
+    font-size: 15px;
+  }
+}
+.footer_auth a {
+  font-family: Cairo-Bold;
+  color: var(--main_theme_clr);
+}
+
+.forgetPassword a {
+  color: red;
+  font-size: 18px;
+  font-family: Medium;
+}/*# sourceMappingURL=auth.css.map */

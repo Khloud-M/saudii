@@ -1,0 +1,23 @@
+.adress {
+  overflow: hidden;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .test {
+    justify-content: center;
+  }
+  .test .coll {
+    width: 100%;
+  }
+}
+
+.todos {
+  position: relative;
+  margin: 100px 0;
+}/*# sourceMappingURL=addAdress.css.map */
