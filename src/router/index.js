@@ -10,6 +10,7 @@ import Sales from "@/views/Subpages/heighest_sales.vue";
 import rates from "@/views/Subpages/highest_rated.vue";
 import itemDetails from "@/views/Subpages/itemDetails.vue";
 import filterComp from "@/views/Subpages/filterComp.vue";
+import searchPage from "@/components/searchPage.vue"
 // userAccount Page
 import editAcc from "@/views/userporfile/editAcc.vue";
 import adressAcc from "@/views/userporfile/adressAcc.vue";
@@ -43,6 +44,8 @@ const router = createRouter({
     { path: "/rate", component: rates },
     {path:"/filter", component:filterComp},
     { path: "/item/:id", component: itemDetails, props: true },
+    {path:"/searchPage", component:searchPage},
+
     // userAccount Page
     { path: "/editAcc", component: editAcc },
     { path: "/adressAcc", component: adressAcc  ,children:[

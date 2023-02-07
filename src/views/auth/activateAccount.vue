@@ -19,7 +19,7 @@
       />
       <!-- <input type="text" placeholder="cpde"  v-model="verification_code"> -->
     </div>
-    {{ this.verificationType }}
+    <!-- {{ this.verificationType }} -->
     <button type="submit" class="send">
       {{ $t("buttons.submit") }} 
 

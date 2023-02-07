@@ -55,7 +55,6 @@ import Chat from "vue3-beautiful-chat";
 import axios from "axios";
 import VueAxios from "vue-axios";
 axios.defaults.baseURL = "https://khlod.aait-d.com/saudi_marsheeh/public/api/";
-
 axios.defaults.headers = {
   Authorization: `Bearer ${localStorage.getItem("saui-app-user-token")}`,
   Accept: "application/json",

@@ -41,10 +41,10 @@ export default defineComponent({
     return {
       items: [
         {
-          src: "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/slider/1666167629_hUFHi6DOJyIC.jpeg",
+          src: "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/slider/1675214757_GLxP7j3EXHZ9.png",
         },
         {
-          src: "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/slider/1666167629_hUFHi6DOJyIC.jpeg",
+          src: "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/slider/1675214757_GLxP7j3EXHZ9.png",
         },
       ],
     };

@@ -1,6 +1,9 @@
+import axios from "axios";
+import router from "@/router";
 export default {
     namespaced: true,
     state:{
+      data:[],
       pageLoading: false,
       userToken : localStorage.getItem("saui-app-user-token") ||'',
       userEmail : localStorage.getItem("saui-app-user-email")||'',
@@ -8,6 +11,20 @@ export default {
       phone:localStorage.getItem("saui-app-user-phone")||'',
     },
     mutations:{
+      submitform(state ,payload){
+        const myData = new FormData();
+        myData.append("keyword" , payload);
+        myData.append("type" , false);
+         axios({
+          method:"GET",
+          url:`search?keyword=${payload}`,
+          data:myData
+         })
+         .then((res)=>{
+          state.data= res.data.data;
+          router.push('/searchPage');
+         })
+      },
       pageLoading(state, payload) {
         state.pageLoading = payload
       },

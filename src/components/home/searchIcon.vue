@@ -8,12 +8,15 @@
     <div v-if="show" data-aos="zoom-in" class="showSearch">
       <div class="close-nav" @click="closeCart">X</div>
       <div class="conainer_showSearch">
-        <div class="search_input">
-          <input type="search" 
-          :placeholder="
-                      $t('home.search')
-                    "/>
-        </div>
+        <form @submit.prevent="submitKeyword">
+          <div class="search_input">
+            <input
+              type="search"
+              v-model="keyword"
+              :placeholder="$t('home.search')"
+            />
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -23,6 +26,8 @@ export default {
   data() {
     return {
       show: false,
+      keyword: null,
+      type:false
     };
   },
   methods: {
@@ -31,6 +36,12 @@ export default {
     },
     closeCart() {
       this.show = false;
+    },
+    submitKeyword() {
+      this.$store.commit("authModle/submitform", this.keyword );
+      console.log("keyword");
+      this.show = false;
+      this.keyword = "";
     },
   },
 };
@@ -43,7 +54,6 @@ export default {
     position: relative;
     transition: all 0.5s ease;
     width: 60px;
-
 
     .toolTip {
       display: none;
